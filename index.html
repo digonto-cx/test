@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QubeX — Fueling Next Generation Earning Platforms</title>
+    <title>QubeX — মাত্র ১,০০০ টাকায় আর্নিং সাইট ও বট সল্যুশন</title>
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,10 +12,10 @@
             theme: {
                 extend: {
                     colors: {
-                        darkBg: '#090A0C',
-                        darkCard: '#121418',
-                        darkBorder: '#1E222A',
-                        neonLime: '#C6F432', // Scalient signature neon lime
+                        darkBg: '#08090C',
+                        darkCard: '#111317',
+                        darkBorder: '#1D2128',
+                        neonLime: '#C6F432',
                         neonHover: '#B2E21B',
                     },
                     fontFamily: {
@@ -27,11 +27,10 @@
     </script>
 
     <!-- Google Fonts & FontAwesome -->
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
-        /* Custom Scalient Running Marquee */
         @keyframes marquee {
             0% { transform: translateX(0%); }
             100% { transform: translateX(-50%); }
@@ -39,281 +38,252 @@
         .animate-marquee {
             display: flex;
             width: 200%;
-            animation: marquee 16s linear infinite;
+            animation: marquee 18s linear infinite;
         }
-        .animate-marquee:hover {
-            animation-play-state: paused;
-        }
-
-        /* Glass Pill Badges */
         .pill-badge {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.12);
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
         }
     </style>
 </head>
 <body class="bg-darkBg text-gray-200 antialiased selection:bg-neonLime selection:text-black">
 
-    <!-- Top Navigation (Scalient Minimal Header) -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-darkBg/80 backdrop-blur-md border-b border-darkBorder">
+    <!-- Top Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-darkBg/85 backdrop-blur-md border-b border-darkBorder">
         <div class="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
-            <!-- Brand Logo -->
             <a href="#index" class="flex items-center gap-2">
                 <span class="w-3.5 h-3.5 bg-neonLime inline-block rounded-xs"></span>
-                <span class="font-bold text-xl tracking-tight text-white">Qube<span class="text-neonLime">X</span></span>
+                <span class="font-bold text-2xl tracking-tight text-white">Qube<span class="text-neonLime">X</span></span>
             </a>
 
-            <!-- Right CTA Action -->
-            <div class="flex items-center gap-4">
-                <a href="https://t.me/Itz_chiperx" target="_blank" class="pill-badge hover:bg-white/10 text-white text-xs font-semibold px-4 py-2 rounded-full flex items-center gap-2 transition duration-200">
-                    <span class="w-2 h-2 rounded-full bg-neonLime animate-ping"></span>
-                    <span>অর্ডার ওপেন</span>
-                    <i class="fa-solid fa-arrow-right text-[10px] text-neonLime"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section (Video Match: Tag, Heading, Scalient Buttons) -->
-    <section id="index" class="pt-32 pb-16 px-5 max-w-4xl mx-auto text-center">
-        <!-- Floating Pill Tag -->
-        <div class="inline-flex items-center gap-2 pill-badge px-3 py-1.5 rounded-full text-xs font-medium text-gray-300 mb-6">
-            <span class="bg-white text-black text-[10px] font-bold px-2 py-0.5 rounded-full">New</span>
-            <span>নো হিডেন চার্জ বা এক্সট্রা ফি</span>
-            <i class="fa-solid fa-arrow-right text-[10px] text-gray-400"></i>
-        </div>
-
-        <!-- Big Bold Title -->
-        <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
-            Fueling the Next Generation of <span class="text-neonLime">Earning Brands</span>
-        </h1>
-
-        <!-- Subtitle -->
-        <p class="mt-5 text-gray-400 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-            অনলাইন আর্নিং সাইট, টেলিগ্রাম বট ও মিনি অ্যাপ ডেভেলপমেন্টের কমপ্লিট সল্যুশন। সাথে পাচ্ছেন ১০০% ফুল কন্ট্রোল অ্যাডমিন প্যানেল।
-        </p>
-
-        <!-- Scalient Buttons (Neon Green Pill + Watch Demo Pill) -->
-        <div class="mt-8 flex flex-wrap justify-center items-center gap-3">
-            <a href="https://t.me/Itz_chiperx" target="_blank" class="bg-neonLime hover:bg-neonHover text-black font-bold px-7 py-3 rounded-full text-sm flex items-center gap-2.5 transition duration-200 shadow-lg shadow-neonLime/10">
-                <span>প্রজেক্ট শুরু করুন</span>
-                <i class="fa-solid fa-arrow-right text-xs"></i>
-            </a>
-            <a href="#services" class="pill-badge hover:bg-white/10 text-white font-semibold px-6 py-3 rounded-full text-sm flex items-center gap-2.5 transition duration-200">
-                <i class="fa-solid fa-play text-xs text-neonLime"></i>
-                <span>ডেমো দেখুন</span>
-            </a>
-        </div>
-    </section>
-
-    <!-- Bento Highlights Section (Video Match: Rounded Cards with Stats) -->
-    <section class="px-5 max-w-6xl mx-auto pb-16">
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <!-- Card 1 -->
-            <div class="bg-darkCard border border-darkBorder rounded-3xl p-6 relative overflow-hidden flex flex-col justify-between">
-                <span class="text-3xl sm:text-4xl font-extrabold text-white">১০০+</span>
-                <div class="mt-8">
-                    <h3 class="text-white font-bold text-base">সফলভাবে ডেলিভারকৃত প্রজেক্ট</h3>
-                    <p class="text-gray-400 text-xs mt-1">দেশি ও বিদেশি ক্লায়েন্টদের জন্য তৈরি হাই-ট্রাফিক প্ল্যাটফর্ম।</p>
-                </div>
-            </div>
-
-            <!-- Card 2 (Visual Focus with Padlock/Security) -->
-            <div class="bg-darkCard border border-darkBorder rounded-3xl p-6 relative overflow-hidden flex flex-col justify-between">
-                <div class="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-neonLime text-xl">
-                    <i class="fa-solid fa-shield-halved"></i>
-                </div>
-                <div class="mt-8">
-                    <h3 class="text-white font-bold text-base">ট্রাস্টেড & সিকিউর গ্রোথ</h3>
-                    <p class="text-gray-400 text-xs mt-1">অটো-ডিপোজিট ও উইথড্রল সহ কমপ্লিট অ্যান্ড-টু-অ্যান্ড সিকিউরিটি।</p>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="bg-darkCard border border-darkBorder rounded-3xl p-6 relative overflow-hidden flex flex-col justify-between">
-                <div class="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-neonLime text-xl">
-                    <i class="fa-solid fa-sliders"></i>
-                </div>
-                <div class="mt-8">
-                    <h3 class="text-white font-bold text-base">ফুল কন্ট্রোল অ্যাডমিন</h3>
-                    <p class="text-gray-400 text-xs mt-1">ইউজার কন্ট্রোল, টাস্ক সেটআপ ও ব্যালেন্স ম্যানেজমেন্ট এক ক্লিকে।</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Editorial About Section (Video Match: Big typography style) -->
-    <section id="about" class="py-16 px-5 border-t border-darkBorder bg-black">
-        <div class="max-w-4xl mx-auto">
-            <span class="text-xs uppercase tracking-widest text-neonLime font-bold block mb-4">About QubeX & Chiper X</span>
-            <h2 class="text-2xl sm:text-4xl font-bold text-white leading-snug">
-                QubeX-এ আমরা শুধু কোডিং করি না, আমরা তৈরি করি এমন সিস্টেম যা আপনার আর্নিং বিজনেসকে দেয় সম্পূর্ণ অটোমেশন এবং নিরাপদ আয়ের নিশ্চয়তা।
-            </h2>
-            <div class="mt-6 flex items-center gap-3">
-                <span class="text-sm text-gray-400">লিড ডেভেলপার: <strong class="text-white">Chiper X</strong></span>
-                <span class="text-gray-600">•</span>
-                <span class="text-sm text-gray-400">টেলিগ্রাম: <strong class="text-neonLime">@Itz_chiperx</strong></span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Infinite Running Marquee (Video Match: Let's Get Started Marquee) -->
-    <div class="bg-neonLime py-3.5 overflow-hidden select-none">
-        <div class="animate-marquee items-center text-black font-extrabold uppercase text-sm tracking-wider space-x-8">
-            <span>★ EARNING WEBSITES</span>
-            <span>★ TELEGRAM MINI APPS</span>
-            <span>★ TAP TO EARN BOTS</span>
-            <span>★ DYNAMIC ADMIN PANEL</span>
-            <span>★ PTC & INVESTMENT SYSTEM</span>
-            <span>★ 24/7 SUPPORT BY CHIPER X</span>
-            <!-- Duplicate for smooth seamless loop -->
-            <span>★ EARNING WEBSITES</span>
-            <span>★ TELEGRAM MINI APPS</span>
-            <span>★ TAP TO EARN BOTS</span>
-            <span>★ DYNAMIC ADMIN PANEL</span>
-            <span>★ PTC & INVESTMENT SYSTEM</span>
-            <span>★ 24/7 SUPPORT BY CHIPER X</span>
-        </div>
-    </div>
-
-    <!-- Services / Works Section (Video Match: Scalient Work Cards) -->
-    <section id="services" class="py-20 px-5 max-w-6xl mx-auto">
-        <div class="text-center mb-14">
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Our Core Services</h2>
-            <p class="text-gray-400 text-sm mt-2">আপনার প্রয়োজন অনুযায়ী কাস্টমাইজড আর্নিং সফটওয়্যার</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- Service 1 -->
-            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-gray-700 transition">
-                <div class="flex justify-between items-start mb-6">
-                    <span class="w-10 h-10 rounded-xl bg-neonLime/10 text-neonLime flex items-center justify-center text-lg">
-                        <i class="fa-solid fa-coins"></i>
-                    </span>
-                    <span class="pill-badge text-[11px] px-3 py-1 rounded-full text-gray-400">অনলাইন আর্নিং</span>
-                </div>
-                <h3 class="text-xl font-bold text-white mb-2">PTC ও টাস্ক আর্নিং প্ল্যাটফর্ম</h3>
-                <p class="text-gray-400 text-sm leading-relaxed mb-6">অ্যাড দেখা, ভিডিও দেখা, রেফারেল বোনাস এবং অটোমেটেড ডিপোজিট/উইথড্রল সিস্টেম সম্বলিত পূর্ণাঙ্গ আর্নিং সাইট।</p>
-                <a href="https://t.me/Itz_chiperx" target="_blank" class="inline-flex items-center gap-2 text-neonLime font-bold text-xs hover:underline">
-                    <span>প্রজেক্ট ডিটেইলস</span>
-                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-            </div>
-
-            <!-- Service 2 -->
-            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-gray-700 transition">
-                <div class="flex justify-between items-start mb-6">
-                    <span class="w-10 h-10 rounded-xl bg-neonLime/10 text-neonLime flex items-center justify-center text-lg">
-                        <i class="fa-brands fa-telegram"></i>
-                    </span>
-                    <span class="pill-badge text-[11px] px-3 py-1 rounded-full text-gray-400">TG ইকোসিস্টেম</span>
-                </div>
-                <h3 class="text-xl font-bold text-white mb-2">Telegram Mini App & Bots</h3>
-                <p class="text-gray-400 text-sm leading-relaxed mb-6">Notcoin বা Hamster স্টাইলের Tap-to-Earn মিনি অ্যাপ, অটো পেমেন্ট বট, ইউজার ভেরিফিকেশন ও ব্রডকাস্টিং বট।</p>
-                <a href="https://t.me/Itz_chiperx" target="_blank" class="inline-flex items-center gap-2 text-neonLime font-bold text-xs hover:underline">
-                    <span>প্রজেক্ট ডিটেইলস</span>
-                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-            </div>
-
-            <!-- Service 3 -->
-            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-gray-700 transition">
-                <div class="flex justify-between items-start mb-6">
-                    <span class="w-10 h-10 rounded-xl bg-neonLime/10 text-neonLime flex items-center justify-center text-lg">
-                        <i class="fa-solid fa-gauge-high"></i>
-                    </span>
-                    <span class="pill-badge text-[11px] px-3 py-1 rounded-full text-gray-400">কন্ট্রোল প্যানেল</span>
-                </div>
-                <h3 class="text-xl font-bold text-white mb-2">ফুল কন্ট্রোল অ্যাডমিন প্যানেল</h3>
-                <p class="text-gray-400 text-sm leading-relaxed mb-6">ইউজার ব্লক/আনব্লক, ব্যালেন্স ম্যানিপুলেট, গেটওয়ে এডিট, সিকিউর পাসওয়ার্ড এনক্রিপশন এবং লাইভ লগ ট্র্যাকিং।</p>
-                <a href="https://t.me/Itz_chiperx" target="_blank" class="inline-flex items-center gap-2 text-neonLime font-bold text-xs hover:underline">
-                    <span>প্রজেক্ট ডিটেইলস</span>
-                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-            </div>
-
-            <!-- Service 4 -->
-            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-gray-700 transition">
-                <div class="flex justify-between items-start mb-6">
-                    <span class="w-10 h-10 rounded-xl bg-neonLime/10 text-neonLime flex items-center justify-center text-lg">
-                        <i class="fa-solid fa-mobile-screen-button"></i>
-                    </span>
-                    <span class="pill-badge text-[11px] px-3 py-1 rounded-full text-gray-400">অ্যাপ্লিকেশন</span>
-                </div>
-                <h3 class="text-xl font-bold text-white mb-2">কাস্টম ওয়েব & মোবাইল অ্যাপ</h3>
-                <p class="text-gray-400 text-sm leading-relaxed mb-6">রেসপনসিভ ওয়েব অ্যাপ্লিকেশন এবং আর্নিং সাইটের সরাসরি অ্যান্ড্রয়েড APK অ্যাপ ডেভেলপমেন্ট।</p>
-                <a href="https://t.me/Itz_chiperx" target="_blank" class="inline-flex items-center gap-2 text-neonLime font-bold text-xs hover:underline">
-                    <span>প্রজেক্ট ডিটেইলস</span>
-                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Scalient High-Contrast Stats Row (Video Match: 500K Users, 98% Box) -->
-    <section class="py-12 px-5 max-w-6xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="bg-neonLime text-black rounded-3xl p-8 flex flex-col justify-between">
-                <h4 class="text-5xl font-extrabold tracking-tight">500K+</h4>
-                <p class="font-bold text-sm mt-8">ইউজার হ্যান্ডেল করার মতো স্কেলেবল আর্কিটেকচার ও ডেটাবেজ অপ্টিমাইজেশন।</p>
-            </div>
-            <div class="bg-white text-black rounded-3xl p-8 flex flex-col justify-between">
-                <h4 class="text-5xl font-extrabold tracking-tight">99.9%</h4>
-                <p class="font-semibold text-gray-700 text-sm mt-8">সিকিউর কোড ও জিরো ডাউনটাইম সার্ভার সেটআপ গাইডলাইন।</p>
-            </div>
-            <div class="bg-darkCard border border-darkBorder text-white rounded-3xl p-8 flex flex-col justify-between">
-                <h4 class="text-5xl font-extrabold tracking-tight text-neonLime">24/7</h4>
-                <p class="text-gray-400 text-sm mt-8">যেকোনো টেকনিক্যাল সমস্যায় সরাসরি Chiper X এর ডেডিকেটেড সাপোর্ট।</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Payment Gateways Accepted -->
-    <section class="py-14 border-t border-darkBorder text-center px-5">
-        <p class="text-xs uppercase tracking-widest text-gray-500 font-bold mb-6">Payment Methods Accepted</p>
-        <div class="flex flex-wrap justify-center items-center gap-4">
-            <div class="pill-badge px-6 py-3 rounded-2xl flex items-center gap-3">
-                <i class="fa-solid fa-wallet text-pink-500 text-lg"></i>
-                <span class="font-bold text-sm text-white">bKash Personal / Merchant</span>
-            </div>
-            <div class="pill-badge px-6 py-3 rounded-2xl flex items-center gap-3">
-                <i class="fa-solid fa-money-bill-wave text-orange-500 text-lg"></i>
-                <span class="font-bold text-sm text-white">Nagad</span>
-            </div>
-            <div class="pill-badge px-6 py-3 rounded-2xl flex items-center gap-3">
-                <i class="fa-brands fa-bitcoin text-yellow-400 text-lg"></i>
-                <span class="font-bold text-sm text-white">Binance (USDT/Crypto)</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact & Footer (Video Match: Clean Editorial Footer) -->
-    <footer id="contact" class="bg-black border-t border-darkBorder pt-16 pb-12 px-5">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
-            <div>
-                <a href="#index" class="flex items-center gap-2 mb-4">
-                    <span class="w-3.5 h-3.5 bg-neonLime inline-block rounded-xs"></span>
-                    <span class="font-bold text-2xl tracking-tight text-white">Qube<span class="text-neonLime">X</span></span>
-                </a>
-                <p class="text-gray-400 text-sm max-w-xs leading-relaxed">
-                    Custom Web, App, Telegram Bots & Earning Script Developer. Complete control & peace of mind.
-                </p>
-            </div>
-
-            <!-- Contact Box -->
-            <div class="bg-darkCard border border-darkBorder p-6 rounded-2xl w-full md:w-auto">
-                <span class="text-xs text-neonLime uppercase font-bold tracking-wider">Direct Telegram</span>
-                <h4 class="text-lg font-bold text-white mt-1 mb-4">কথা বলুন Chiper X এর সাথে</h4>
-                <a href="https://t.me/Itz_chiperx" target="_blank" class="bg-neonLime hover:bg-neonHover text-black font-bold px-6 py-3 rounded-xl text-xs flex items-center justify-center gap-2 transition duration-200">
+            <div class="flex items-center gap-3">
+                <a href="https://t.me/Itz_chiperx" target="_blank" class="bg-neonLime hover:bg-neonHover text-black text-xs font-bold px-4 py-2 rounded-full flex items-center gap-2 transition duration-200">
                     <i class="fa-brands fa-telegram text-sm"></i>
                     <span>@Itz_chiperx</span>
                 </a>
             </div>
         </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="index" class="pt-32 pb-14 px-5 max-w-4xl mx-auto text-center">
+        <!-- Starting Price Pill Tag -->
+        <div class="inline-flex items-center gap-2 pill-badge px-4 py-1.5 rounded-full text-xs font-semibold text-gray-300 mb-6">
+            <span class="bg-neonLime text-black text-[10px] font-extrabold px-2 py-0.5 rounded-full uppercase">Offer</span>
+            <span>প্রজেক্ট শুরু হচ্ছে মাত্র <strong class="text-neonLime">১,০০০ টাকা</strong> থেকে! 🚀</span>
+        </div>
+
+        <!-- Big Bold Title -->
+        <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-[1.18]">
+            আপনার নিজস্ব <span class="text-neonLime">অনলাইন ইনকাম সাইট</span> ও বট তৈরি করুন সবচেয়ে কম খরচে
+        </h1>
+
+        <!-- Subtitle -->
+        <p class="mt-5 text-gray-400 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+            ওয়েবসাইট, অ্যান্ড্রয়েড অ্যাপ, টেলিগ্রাম মিনি অ্যাপ এবং অটোমেশন বট। ফুল কন্ট্রোল অ্যাডমিন প্যানেল, ডোমেন-হোস্টিং সহ পূর্ণাঙ্গ বিজনেসের এ-টু-জেড গাইডলাইন।
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="mt-8 flex flex-wrap justify-center items-center gap-3">
+            <a href="https://t.me/Itz_chiperx" target="_blank" class="bg-neonLime hover:bg-neonHover text-black font-extrabold px-8 py-3.5 rounded-full text-sm flex items-center gap-2.5 transition duration-200 shadow-xl shadow-neonLime/10">
+                <span>মাত্র ১,০০০ টাকায় শুরু করুন</span>
+                <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+            <a href="#benefits" class="pill-badge hover:bg-white/10 text-white font-semibold px-6 py-3.5 rounded-full text-sm flex items-center gap-2 transition duration-200">
+                <i class="fa-solid fa-gift text-neonLime"></i>
+                <span>এক্সট্রা বেনিফিটগুলো দেখুন</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Scalient Infinite Ticker Marquee -->
+    <div class="bg-neonLime py-3.5 overflow-hidden select-none border-y border-black">
+        <div class="animate-marquee items-center text-black font-extrabold uppercase text-xs sm:text-sm tracking-wider space-x-8">
+            <span>★ শুরু মাত্র ১,০০০ টাকায়</span>
+            <span>★ ফ্রি ডোমেন ও হোস্টিং</span>
+            <span>★ ১ মাস সম্পূর্ণ ফ্রি আপডেট সাপোর্ট</span>
+            <span>★ ১০০% ওনার প্রাইভেসি & ট্র্যাকপ্রুফ</span>
+            <span>★ ইন্টারন্যাশনাল কাজ কানেক্টেড</span>
+            <span>★ ইনকাম গ্যারান্টি বিজনেস মডেল</span>
+            <!-- Duplicate for loop -->
+            <span>★ শুরু মাত্র ১,০০০ টাকায়</span>
+            <span>★ ফ্রি ডোমেন ও হোস্টিং</span>
+            <span>★ ১ মাস সম্পূর্ণ ফ্রি আপডেট সাপোর্ট</span>
+            <span>★ ১০০% ওনার প্রাইভেসি & ট্র্যাকপ্রুফ</span>
+            <span>★ ইন্টারন্যাশনাল কাজ কানেক্টেড</span>
+            <span>★ ইনকাম গ্যারান্টি বিজনেস মডেল</span>
+        </div>
+    </div>
+
+    <!-- Extra Benefits Bento Grid (Special Focus) -->
+    <section id="benefits" class="py-20 px-5 max-w-6xl mx-auto">
+        <div class="text-center max-w-xl mx-auto mb-14">
+            <span class="text-xs uppercase tracking-widest text-neonLime font-bold block mb-2">Unmatched Value</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">আমাদের স্পেশাল এক্সট্রা বেনিফিটসমূহ</h2>
+            <p class="text-gray-400 text-xs sm:text-sm mt-2">অন্য কোথাও এই বাজেটে এই লেভেলের প্রিমিয়াম ফিচার পাবেন না</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            
+            <!-- Benefit 1: 1 Month Free Update -->
+            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-neonLime/40 transition duration-300">
+                <div class="w-12 h-12 rounded-2xl bg-neonLime/10 text-neonLime flex items-center justify-center text-xl mb-6">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <span class="text-[11px] font-bold text-neonLime uppercase tracking-wider">স্পেশাল অফার</span>
+                <h3 class="text-lg font-bold text-white mt-1 mb-2">১ মাস ফ্রি আপডেট সাপোর্ট</h3>
+                <p class="text-gray-400 text-xs leading-relaxed">ডেলিভারির পর ১ মাস পর্যন্ত যেকোনো ধরনের ছোট-বড় আপডেট, ফিচার চেঞ্জ বা মডিফিকেশন সম্পূর্ণ ফ্রিতে করে দেওয়া হবে।</p>
+            </div>
+
+            <!-- Benefit 2: Free Domain + Hosting -->
+            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-neonLime/40 transition duration-300">
+                <div class="w-12 h-12 rounded-2xl bg-neonLime/10 text-neonLime flex items-center justify-center text-xl mb-6">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                <span class="text-[11px] font-bold text-neonLime uppercase tracking-wider">নো হিডেন খরচ</span>
+                <h3 class="text-lg font-bold text-white mt-1 mb-2">ডোমেন + হোস্টিং ইনক্লুডেড</h3>
+                <p class="text-gray-400 text-xs leading-relaxed">আলাদাভাবে কোনো ডোমেন বা হোস্টিং কেনার ঝামেলা নেই। প্যাকেজের সাথেই সবকিছু সেটআপ করে রেডি দেওয়া হবে।</p>
+            </div>
+
+            <!-- Benefit 3: Income Guarantee Plan -->
+            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-neonLime/40 transition duration-300">
+                <div class="w-12 h-12 rounded-2xl bg-neonLime/10 text-neonLime flex items-center justify-center text-xl mb-6">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <span class="text-[11px] font-bold text-neonLime uppercase tracking-wider">ফুল গাইডলাইন</span>
+                <h3 class="text-lg font-bold text-white mt-1 mb-2">ইনকাম গ্যারান্টি & রোডম্যাপ</h3>
+                <p class="text-gray-400 text-xs leading-relaxed">সাইট বানিয়ে বসে থাকা নয়; কীভাবে ট্রাফিক আনবেন, কীভাবে লাভ করবেন এবং ইউজার হ্যান্ডেল করবেন—সব সরাসরি বুঝিয়ে দেওয়া হবে।</p>
+            </div>
+
+            <!-- Benefit 4: Owner Privacy & Trackproof -->
+            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-neonLime/40 transition duration-300">
+                <div class="w-12 h-12 rounded-2xl bg-neonLime/10 text-neonLime flex items-center justify-center text-xl mb-6">
+                    <i class="fa-solid fa-user-shield"></i>
+                </div>
+                <span class="text-[11px] font-bold text-neonLime uppercase tracking-wider">১০০% সিকিউরিটি</span>
+                <h3 class="text-lg font-bold text-white mt-1 mb-2">ওনার প্রাইভেসি & ট্র্যাকপ্রুফ</h3>
+                <p class="text-gray-400 text-xs leading-relaxed">অ্যাডমিন বা ওনারের পরিচয় থাকবে সম্পূর্ণ সুরক্ষিত ও ট্র্যাকপ্রুফ। কোনো তথ্য সাধারণ ইউজারদের কাছে ফাঁস হবে না।</p>
+            </div>
+
+            <!-- Benefit 5: International Task Integration -->
+            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-neonLime/40 transition duration-300">
+                <div class="w-12 h-12 rounded-2xl bg-neonLime/10 text-neonLime flex items-center justify-center text-xl mb-6">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <span class="text-[11px] font-bold text-neonLime uppercase tracking-wider">গ্লোবাল আর্নিং</span>
+                <h3 class="text-lg font-bold text-white mt-1 mb-2">ইন্টারন্যাশনাল কাজ কানেক্টেড</h3>
+                <p class="text-gray-400 text-xs leading-relaxed">সাইটে সরাসরি আন্তর্জাতিক অফারওয়াল, সার্ভে, সিপিএ টাস্ক ও অ্যাড নেটওয়ার্ক ইন্টিগ্রেট করে দেওয়া হবে যাতে বেশি ইনকাম আসে।</p>
+            </div>
+
+            <!-- Benefit 6: Ultra Fast Loading Speed -->
+            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 hover:border-neonLime/40 transition duration-300">
+                <div class="w-12 h-12 rounded-2xl bg-neonLime/10 text-neonLime flex items-center justify-center text-xl mb-6">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                </div>
+                <span class="text-[11px] font-bold text-neonLime uppercase tracking-wider">সুপারফাস্ট পারফরম্যান্স</span>
+                <h3 class="text-lg font-bold text-white mt-1 mb-2">রকেট স্পিড সাইট লোডিং</h3>
+                <p class="text-gray-400 text-xs leading-relaxed">হালকা এবং অপ্টিমাইজড কোডবেস। যেকোনো সাধারণ ফোনে কিংবা দুর্বল নেটওয়ার্কেও চোখের পলকে সাইট ওপেন হবে।</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="py-16 px-5 border-t border-darkBorder bg-black">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white">আমরা যেসব ক্যাটাগরিতে কাজ করি</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="p-6 rounded-2xl pill-badge">
+                    <i class="fa-solid fa-coins text-neonLime text-2xl mb-3"></i>
+                    <h4 class="font-bold text-white">অনলাইন আর্নিং সাইট</h4>
+                    <p class="text-gray-400 text-xs mt-1">PTC, Task, Investment, Mining স্ক্রিপ্ট।</p>
+                </div>
+                <div class="p-6 rounded-2xl pill-badge">
+                    <i class="fa-brands fa-telegram text-neonLime text-2xl mb-3"></i>
+                    <h4 class="font-bold text-white">TG বট & মিনি অ্যাপ</h4>
+                    <p class="text-gray-400 text-xs mt-1">Tap-to-Earn, পেমেন্ট বট ও টাস্ক ভেরিফাই।</p>
+                </div>
+                <div class="p-6 rounded-2xl pill-badge">
+                    <i class="fa-solid fa-mobile-screen text-neonLime text-2xl mb-3"></i>
+                    <h4 class="font-bold text-white">মোবাইল অ্যাপ (APK)</h4>
+                    <p class="text-gray-400 text-xs mt-1">ক্লিন অ্যান্ড্রয়েড আর্নিং অ্যাপ্লিকেশন।</p>
+                </div>
+                <div class="p-6 rounded-2xl pill-badge">
+                    <i class="fa-solid fa-lock text-neonLime text-2xl mb-3"></i>
+                    <h4 class="font-bold text-white">ফুল কন্ট্রোল অ্যাডমিন</h4>
+                    <p class="text-gray-400 text-xs mt-1">সম্পূর্ণ সিকিউর ইউজার ও ব্যালেন্স কন্ট্রোল।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods (Complete Set with bKash, Nagad, Rocket, Cellfin, Binance, TG Stars) -->
+    <section class="py-16 px-5 border-t border-darkBorder text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="text-xs uppercase tracking-widest text-neonLime font-bold block mb-2">Instant & Easy Payment</span>
+            <h3 class="text-2xl font-bold text-white mb-6">আমাদের গ্রহণযোগ্য পেমেন্ট মেথডসমূহ</h3>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
+                <!-- bKash -->
+                <div class="pill-badge p-3.5 rounded-2xl flex flex-col items-center justify-center gap-1.5 hover:border-pink-500/50 transition">
+                    <i class="fa-solid fa-wallet text-pink-500 text-xl"></i>
+                    <span class="text-xs font-bold text-white">bKash</span>
+                </div>
+                <!-- Nagad -->
+                <div class="pill-badge p-3.5 rounded-2xl flex flex-col items-center justify-center gap-1.5 hover:border-orange-500/50 transition">
+                    <i class="fa-solid fa-money-bill-wave text-orange-500 text-xl"></i>
+                    <span class="text-xs font-bold text-white">Nagad</span>
+                </div>
+                <!-- Rocket -->
+                <div class="pill-badge p-3.5 rounded-2xl flex flex-col items-center justify-center gap-1.5 hover:border-purple-500/50 transition">
+                    <i class="fa-solid fa-paper-plane text-purple-400 text-xl"></i>
+                    <span class="text-xs font-bold text-white">Rocket</span>
+                </div>
+                <!-- Cellfin -->
+                <div class="pill-badge p-3.5 rounded-2xl flex flex-col items-center justify-center gap-1.5 hover:border-emerald-500/50 transition">
+                    <i class="fa-solid fa-building-columns text-emerald-400 text-xl"></i>
+                    <span class="text-xs font-bold text-white">Cellfin</span>
+                </div>
+                <!-- Binance -->
+                <div class="pill-badge p-3.5 rounded-2xl flex flex-col items-center justify-center gap-1.5 hover:border-yellow-500/50 transition">
+                    <i class="fa-brands fa-bitcoin text-yellow-400 text-xl"></i>
+                    <span class="text-xs font-bold text-white">Binance</span>
+                </div>
+                <!-- Telegram Stars -->
+                <div class="pill-badge p-3.5 rounded-2xl flex flex-col items-center justify-center gap-1.5 hover:border-amber-400/50 transition">
+                    <i class="fa-solid fa-star text-amber-300 text-xl"></i>
+                    <span class="text-xs font-bold text-white">TG Stars</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scalient High Contrast CTA & Contact -->
+    <footer id="contact" class="bg-black border-t border-darkBorder pt-16 pb-12 px-5">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="w-12 h-12 rounded-2xl bg-neonLime/10 text-neonLime inline-flex items-center justify-center text-xl mb-4">
+                <i class="fa-brands fa-telegram"></i>
+            </span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">আপনার প্রজেক্ট এখনই শুরু করুন</h2>
+            <p class="text-gray-400 text-sm mt-3 max-w-md mx-auto">
+                মাত্র ১,০০০ টাকায় আর্নিং সাইট, অ্যাপ বা টেলিগ্রাম বট সেটআপ করতে সরাসরি নক দিন Chiper X-কে।
+            </p>
+
+            <div class="mt-8">
+                <a href="https://t.me/Itz_chiperx" target="_blank" class="bg-neonLime hover:bg-neonHover text-black font-extrabold px-10 py-4 rounded-full text-base inline-flex items-center gap-3 transition duration-200 shadow-2xl shadow-neonLime/20 hover:scale-105">
+                    <i class="fa-brands fa-telegram text-xl"></i>
+                    <span>টেলিগ্রামে মেসেজ দিন: @Itz_chiperx</span>
+                </a>
+            </div>
+            <p class="text-gray-500 text-xs mt-4">যেকোনো টেকনিক্যাল সমস্যায় ফুল সাপোর্ট গ্যারান্টি</p>
+        </div>
 
         <div class="max-w-6xl mx-auto mt-16 pt-8 border-t border-darkBorder/60 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-4">
-            <p>© 2026 QubeX. All rights reserved.</p>
-            <p>Developed with passion by <span class="text-white font-medium">Chiper X</span></p>
+            <p>© 2026 <strong>QubeX</strong>. All rights reserved.</p>
+            <p>Developed with passion by <span class="text-white font-semibold">Chiper X</span></p>
         </div>
     </footer>
 
