@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>অনলাইন আর্নিং ওয়েবসাইট ডেভেলপমেন্ট সার্ভিস | QubeX</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#08090C',
+                        darkCard: '#111317',
+                        darkBorder: '#1E222A',
+                        neonLime: '#C6F432',
+                        neonHover: '#B2E21B',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'Hind Siliguri', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        .pill-badge {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .neon-glow {
+            box-shadow: 0 0 35px -5px rgba(198, 244, 50, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 antialiased selection:bg-neonLime selection:text-black">
+
+    <!-- Top Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-darkBg/90 backdrop-blur-md border-b border-darkBorder">
+        <div class="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2">
+                <span class="w-3 h-3 bg-neonLime rounded-xs"></span>
+                <span class="font-bold text-xl tracking-tight text-white">Qube<span class="text-neonLime">X</span></span>
+            </a>
+
+            <div class="flex items-center gap-4">
+                <a href="#how-you-earn" class="hidden md:inline text-xs text-gray-300 hover:text-neonLime transition">ইনকাম মডেল</a>
+                <a href="#features" class="hidden md:inline text-xs text-gray-300 hover:text-neonLime transition">সাইটের ফিচার</a>
+                <a href="#our-guideline" class="hidden md:inline text-xs text-gray-300 hover:text-neonLime transition">আমাদের গাইডলাইন</a>
+                <a href="https://t.me/Itz_chiperx" target="_blank" class="bg-neonLime hover:bg-neonHover text-black text-xs font-bold px-4 py-2 rounded-full transition">
+                    <i class="fa-brands fa-telegram mr-1"></i> সরাসরি কথা বলুন
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-16 px-5 max-w-4xl mx-auto text-center">
+        <div class="inline-flex items-center gap-2 pill-badge px-4 py-1.5 rounded-full text-xs font-semibold text-gray-300 mb-6">
+            <span class="bg-neonLime text-black text-[10px] font-extrabold px-2 py-0.5 rounded-full">SPECIAL SERVICE</span>
+            <span>অনলাইন আর্নিং সাইট মেকিং — শুরু মাত্র <strong class="text-neonLime">১,০০০ টাকায়</strong></span>
+        </div>
+
+        <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight leading-tight">
+            কোনো কোডিং ছাড়া নিজেই তৈরি করুন <br class="hidden sm:block">
+            <span class="text-neonLime">প্রফিটেবল অনলাইন ইনকাম সাইট</span>
+        </h1>
+
+        <p class="mt-6 text-gray-400 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+            আপনি কি নিজের আর্নিং প্ল্যাটফর্ম খুলে ব্যবসা শুরু করতে চান? আমরা আপনাকে দিচ্ছি ফুল কন্ট্রোল অ্যাডমিন প্যানেল, ডোমেইন, হোস্টিং, অ্যান্টি-চিট সিকিউরিটি এবং প্রথম দিন থেকেই আয় করার পূর্ণাঙ্গ গাইডলাইন।
+        </p>
+
+        <!-- CTA & Quick Perks -->
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+            <a href="https://t.me/Itz_chiperx" target="_blank" class="bg-neonLime hover:bg-neonHover text-black font-extrabold px-8 py-3.5 rounded-full text-sm flex items-center gap-2 transition neon-glow">
+                <span>১,০০০ টাকায় সাইট বুক করুন</span>
+                <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+            <a href="#features" class="pill-badge hover:bg-white/10 text-white font-semibold px-6 py-3.5 rounded-full text-sm transition">
+                <i class="fa-solid fa-list-check text-neonLime mr-2"></i>সাইটে যা যা থাকবে
+            </a>
+        </div>
+
+        <!-- Quick 4 Trust Points -->
+        <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-3 text-left">
+            <div class="pill-badge p-3.5 rounded-2xl flex items-center gap-3">
+                <i class="fa-solid fa-server text-neonLime text-base"></i>
+                <span class="text-xs font-semibold text-gray-300">ফ্রি ডোমেন + হোস্টিং</span>
+            </div>
+            <div class="pill-badge p-3.5 rounded-2xl flex items-center gap-3">
+                <i class="fa-solid fa-calendar-check text-neonLime text-base"></i>
+                <span class="text-xs font-semibold text-gray-300">১ মাস ফ্রি আপডেট সাপোর্ট</span>
+            </div>
+            <div class="pill-badge p-3.5 rounded-2xl flex items-center gap-3">
+                <i class="fa-solid fa-user-ninja text-neonLime text-base"></i>
+                <span class="text-xs font-semibold text-gray-300">ওনার পরিচয় ১০০% গোপন</span>
+            </div>
+            <div class="pill-badge p-3.5 rounded-2xl flex items-center gap-3">
+                <i class="fa-solid fa-globe text-neonLime text-base"></i>
+                <span class="text-xs font-semibold text-gray-300">আন্তর্জাতিক অফারওয়াল যুক্ত</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. HOW YOU EARN SECTION (ক্লায়েন্ট নিজে কীভাবে আয় করবে?) -->
+    <section id="how-you-earn" class="py-16 px-5 border-t border-darkBorder bg-black">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-xl mx-auto mb-14">
+                <span class="text-xs uppercase tracking-widest text-neonLime font-bold block mb-2">PROFIT MECHANISM</span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">সাইট বানালে আপনার (মালিকের) লাভ কীভাবে হবে?</h2>
+                <p class="text-gray-400 text-xs sm:text-sm mt-2">অনেকেই বুঝতে পারেন না আর্নিং সাইট থেকে মালিকের কী আয় হয়। নিচে দেওয়া হলো আপনার আয়ের ৪টি মূল উৎস:</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <!-- Method 1 -->
+                <div class="bg-darkCard border border-darkBorder rounded-3xl p-6">
+                    <div class="w-10 h-10 rounded-xl bg-neonLime/10 text-neonLime flex items-center justify-center text-lg mb-4">
+                        <i class="fa-solid fa-rectangle-ad"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-2">১. অ্যাড নেটওয়ার্ক ইনকাম</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">
+                        ইউজাররা যখন কাজ করার সময় অ্যাড (Monetag, Adsterra, AdMob) দেখবে বা ক্লিক করবে, কোম্পানি থেকে সরাসরি আপনার ডলার একাউন্টে জমা হবে।
+                    </p>
+                </div>
+
+                <!-- Method 2 -->
+                <div class="bg-darkCard border border-darkBorder rounded-3xl p-6">
+                    <div class="w-10 h-10 rounded-xl bg-neonLime/10 text-neonLime flex items-center justify-center text-lg mb-4">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-2">২. ইন্টারন্যাশনাল অফারওয়াল</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">
+                        বাইরের দেশের অফারওয়াল (CPALead, OfferToro) সাইটে লাগানো থাকবে। বিদেশি কাজের জন্য কোম্পানি আপনাকে দিবে ১০০ টাকা, আপনি ইউজারকে দিবেন ২০-৩০ টাকা। বাকিটা আপনার ডিরেক্ট প্রফিট!
+                    </p>
+                </div>
+
+                <!-- Method 3 -->
+                <div class="bg-darkCard border border-darkBorder rounded-3xl p-6">
+                    <div class="w-10 h-10 rounded-xl bg-neonLime/10 text-neonLime flex items-center justify-center text-lg mb-4">
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-2">৩. ডিপোজিট ও মেম্বারশিপ প্ল্যান</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">
+                        ইউজাররা বেশি কাজ পেতে VIP মেম্বারশিপ বা ডিপোজিট প্ল্যান কিনবে (bKash/Nagad দিয়ে)। এই পুরো ফান্ড সরাসরি আপনার নিজস্ব পকেটে ঢুকবে।
+                    </p>
+                </div>
+
+                <!-- Method 4 -->
+                <div class="bg-darkCard border border-darkBorder rounded-3xl p-6">
+                    <div class="w-10 h-10 rounded-xl bg-neonLime/10 text-neonLime flex items-center justify-center text-lg mb-4">
+                        <i class="fa-solid fa-percent"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-2">৪. উইথড্রল চার্জ / ফি</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">
+                        যেকোনো ইউজার সাইট থেকে টাকা তোলার সময় আপনি অ্যাডমিন থেকে ৫% থেকে ১০% ফি কেটে রাখতে পারবেন, যা অতিরিক্ত স্থায়ী ইনকাম তৈরি করবে।
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. WHAT WILL BE IN THE SITE (সাইটের ভেতর কি কি থাকবে?) -->
+    <section id="features" class="py-20 px-5 max-w-6xl mx-auto">
+        <div class="text-center max-w-xl mx-auto mb-14">
+            <span class="text-xs uppercase tracking-widest text-neonLime font-bold block mb-2">SYSTEM ARCHITECTURE</span>
+            <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">সাইটের ভেতরে কী কী ফিচার থাকবে?</h2>
+            <p class="text-gray-400 text-xs sm:text-sm mt-2">একটি প্রফেশনাল অনলাইন আর্নিং সাইটে ইউজার ও অ্যাডমিনের যা যা প্রয়োজন সবই দেওয়া হবে</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- User Interface Card -->
+            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-users"></i>
+                    </span>
+                    <div>
+                        <h3 class="text-lg font-bold text-white">ইউজার প্যানেলে যা থাকবে</h3>
+                        <p class="text-xs text-gray-400">সাধারণ ভিজিটর ও মেম্বারদের জন্য</p>
+                    </div>
+                </div>
+
+                <ul class="space-y-3.5 text-xs text-gray-300">
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-circle-check text-neonLime mt-0.5"></i>
+                        <span><strong>সহজ রেজিস্ট্রেশন ও লগইন:</strong> মোবাইল বা ইমেইল দিয়ে সহজে সাইনআপ।</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-circle-check text-neonLime mt-0.5"></i>
+                        <span><strong>টাস্ক & পিটিসি ড্যাশবোর্ড:</strong> ভিডিও দেখা, অ্যাড দেখা, ওয়েবসাইট ভিজিট ও ক্লিকের কাজ।</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-circle-check text-neonLime mt-0.5"></i>
+                        <span><strong>আন্তর্জাতিক অফারওয়াল:</strong> বিদেশি সার্ভে এবং অ্যাপ ডাউনলোডের বড় কাজের সুযোগ।</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-circle-check text-neonLime mt-0.5"></i>
+                        <span><strong>লাইভ ওয়ালেট & উইথড্র রিকোয়েস্ট:</strong> বিকাশ, নগদ, রকেট ইত্যাদির মাধ্যমে টাকা তোলার আবেদন।</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-circle-check text-neonLime mt-0.5"></i>
+                        <span><strong>রেফারেল প্রোগ্রাম:</strong> বন্ধুদের ইনভাইট করে কমিশন পাওয়ার অটো সিস্টেম (যাতে সাইট দ্রুত ভাইরাল হয়)।</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Admin Interface Card -->
+            <div class="bg-darkCard border border-darkBorder rounded-3xl p-7 border-l-4 border-l-neonLime">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="w-10 h-10 rounded-xl bg-neonLime/10 text-neonLime flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </span>
+                    <div>
+                        <h3 class="text-lg font-bold text-white">পাওয়ারফুল অ্যাডমিন প্যানেল (আপনার জন্য)</h3>
+                        <p class="text-xs text-gray-400">পুরো সাইটের রিমোট কন্ট্রোল আপনার হাতে</p>
+                    </div>
+                </div>
+
+                <ul class="space-y-3.5 text-xs text-gray-300">
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-shield-halved text-neonLime mt-0.5"></i>
+                        <span><strong>ইউজার ম্যানেজমেন্ট:</strong> যেকোনো মেম্বারকে ব্লক/আনব্লক ও অ্যাকাউন্ট ব্যান করার ক্ষমতা।</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-shield-halved text-neonLime mt-0.5"></i>
+                        <span><strong>ব্যালেন্স কন্ট্রোল:</strong> যেকারো একাউন্টে ১ ক্লিকে টাকা যোগ করা বা কেটে নেওয়া।</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-shield-halved text-neonLime mt-0.5"></i>
+                        <span><strong>পেমেন্ট অ্যাপ্রুভ/রিজেক্ট:</strong> ইউজারদের দেওয়া ডিপোজিট ও উইথড্রল রিকোয়েস্ট ভেরিফাই করে অ্যাপ্রুভ করার ব্যবস্থা।</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-shield-halved text-neonLime mt-0.5"></i>
+                        <span><strong>টাস্ক এডিটর:</strong> কোডিং ছাড়াই অ্যাডমিন প্যানেল থেকে যেকোনো নতুন কাজের লিংক বা ভিডিও অ্যাড করা।</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i class="fa-solid fa-shield-halved text-neonLime mt-0.5"></i>
+                        <span><strong>নোটিশ ও নোটিফিকেশন:</strong> সাইটের একদম উপরে ব্রেকিং নোটিশ দেওয়ার সুবিধা।</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. HOW WE WILL GUIDE YOU (আপনাকে কীভাবে গাইড করব?) -->
+    <section id="our-guideline" class="py-16 px-5 border-t border-darkBorder bg-black">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center max-w-xl mx-auto mb-14">
+                <span class="text-xs uppercase tracking-widest text-neonLime font-bold block mb-2">STEP BY STEP ROADMAP</span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">অর্ডার দেওয়ার পর আমরা আপনাকে কীভাবে গাইড করব?</h2>
+                <p class="text-gray-400 text-xs sm:text-sm mt-2">আপনি একদম নতুন হলেও কোনো চিন্তা নেই; হাত ধরে সবকিছু শিখিয়ে দেওয়া হবে</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- Step 1 -->
+                <div class="bg-darkCard border border-darkBorder rounded-2xl p-5 flex items-start gap-4">
+                    <span class="w-8 h-8 rounded-full bg-neonLime text-black font-extrabold flex items-center justify-center shrink-0 text-sm">১</span>
+                    <div>
+                        <h4 class="text-sm font-bold text-white">পরিকল্পনা ও ক্যাটাগরি বাছাই</h4>
+                        <p class="text-xs text-gray-400 mt-1">আপনি কেমন সাইট চান (টাস্ক, পিটিসি নাকি ইনভেস্টমেন্ট), আপনার সাথে আলোচনা করে সেরা আইডিয়া ঠিক করা হবে। বাজেট শুরু মাত্র ১,০০০ টাকা থেকে।</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-darkCard border border-darkBorder rounded-2xl p-5 flex items-start gap-4">
+                    <span class="w-8 h-8 rounded-full bg-neonLime text-black font-extrabold flex items-center justify-center shrink-0 text-sm">২</span>
+                    <div>
+                        <h4 class="text-sm font-bold text-white">ডোমেইন ও হোস্টিং সম্পূর্ণ রেডি করে দেওয়া</h4>
+                        <p class="text-xs text-gray-400 mt-1">আপনাকে কোনো আলাদা হোস্টিং কিনতে হবে না। আমরা নিজেরাই সাইট সেটআপ করে লাইভ করে দিব। সাইট হবে অত্যন্ত ফাস্ট এবং সিকিউর।</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-darkCard border border-darkBorder rounded-2xl p-5 flex items-start gap-4">
+                    <span class="w-8 h-8 rounded-full bg-neonLime text-black font-extrabold flex items-center justify-center shrink-0 text-sm">৩</span>
+                    <div>
+                        <h4 class="text-sm font-bold text-white">অ্যাডমিন প্যানেল চালানো শেখানো (লাইভ ট্রেনিং)</h4>
+                        <p class="text-xs text-gray-400 mt-1">কীভাবে ব্যালেন্স অ্যাড করবেন, ইউজারদের উইথড্র দেবেন, নতুন অ্যাড নেটওয়ার্ক বসাবেন—সবকিছু স্ক্রিনশট/ভিডিওর মাধ্যমে পরিষ্কারভাবে বুঝিয়ে দেওয়া হবে।</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="bg-darkCard border border-darkBorder rounded-2xl p-5 flex items-start gap-4">
+                    <span class="w-8 h-8 rounded-full bg-neonLime text-black font-extrabold flex items-center justify-center shrink-0 text-sm">৪</span>
+                    <div>
+                        <h4 class="text-sm font-bold text-white">ইউজার আনার টেকনিক ও মার্কেটিং প্ল্যান</h4>
+                        <p class="text-xs text-gray-400 mt-1">সাইটে কীভাবে মেম্বার বাড়াবেন, কীভাবে ফ্রি ট্রাফিক পাবেন এবং নিরাপদভাবে সাইট চালাবেন তার গোপন টিপস শেয়ার করা হবে।</p>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="bg-darkCard border border-darkBorder rounded-2xl p-5 flex items-start gap-4">
+                    <span class="w-8 h-8 rounded-full bg-neonLime text-black font-extrabold flex items-center justify-center shrink-0 text-sm">৫</span>
+                    <div>
+                        <h4 class="text-sm font-bold text-white">১ মাস সম্পূর্ণ ফ্রি আপডেট ও মডিফিকেশন</h4>
+                        <p class="text-xs text-gray-400 mt-1">কাজ বুঝে পাওয়ার পর ১ মাস পর্যন্ত যেকোনো ধরনের বাটন চেঞ্জ, কালার পরিবর্তন বা ছোটখাটো ফিচার আপডেটের জন্য আলাদা ১ পয়সাও নেওয়া হবে না।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SECURITY & OWNER PRIVACY (নিরাপত্তা ও ওনার সুরক্ষা) -->
+    <section class="py-16 px-5 max-w-6xl mx-auto">
+        <div class="bg-gradient-to-r from-darkCard to-black border border-darkBorder rounded-3xl p-8 sm:p-10">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="w-20 h-20 rounded-2xl bg-neonLime/10 text-neonLime flex items-center justify-center text-4xl shrink-0">
+                    <i class="fa-solid fa-user-secret"></i>
+                </div>
+                <div>
+                    <span class="text-xs uppercase tracking-widest text-neonLime font-bold block mb-1">Trackproof Architecture</span>
+                    <h3 class="text-xl sm:text-2xl font-bold text-white">ওনার প্রাইভেসি & অ্যান্টি-চিট প্রোটেকশন</h3>
+                    <p class="text-gray-400 text-xs sm:text-sm mt-3 leading-relaxed">
+                        আর্নিং সাইটে সাধারণ ইউজাররা যাতে ভুয়া কাজ করে টাকা না তুলতে পারে তার জন্য থাকছে <strong>অ্যান্টি-মাল্টি অ্যাকাউন্ট সিস্টেম</strong> এবং <strong>অটো ভিপিএন ব্লকার</strong>। এছাড়া সাইটের ব্যাকএন্ড এমনভাবে কোড করা থাকবে যাতে সাধারণ কোনো ইউজার মালিকের ব্যক্তিগত পরিচয় বা ডাটাবেজ ট্র্যাক করতে না পারে।
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accepted Payment Gateways -->
+    <section class="py-12 border-t border-darkBorder text-center px-5">
+        <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-6">Payment Options</p>
+        <div class="flex flex-wrap justify-center items-center gap-3">
+            <span class="pill-badge px-4 py-2 rounded-xl text-xs font-semibold text-white"><i class="fa-solid fa-wallet text-pink-500 mr-1.5"></i>bKash</span>
+            <span class="pill-badge px-4 py-2 rounded-xl text-xs font-semibold text-white"><i class="fa-solid fa-money-bill text-orange-500 mr-1.5"></i>Nagad</span>
+            <span class="pill-badge px-4 py-2 rounded-xl text-xs font-semibold text-white"><i class="fa-solid fa-paper-plane text-purple-400 mr-1.5"></i>Rocket</span>
+            <span class="pill-badge px-4 py-2 rounded-xl text-xs font-semibold text-white"><i class="fa-solid fa-building-columns text-emerald-400 mr-1.5"></i>Cellfin</span>
+            <span class="pill-badge px-4 py-2 rounded-xl text-xs font-semibold text-white"><i class="fa-brands fa-bitcoin text-yellow-400 mr-1.5"></i>Binance</span>
+            <span class="pill-badge px-4 py-2 rounded-xl text-xs font-semibold text-white"><i class="fa-solid fa-star text-amber-300 mr-1.5"></i>TG Stars</span>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-5 max-w-4xl mx-auto border-t border-darkBorder">
+        <div class="text-center mb-12">
+            <h3 class="text-2xl font-bold text-white">সচরাচর কিছু সাধারণ প্রশ্ন</h3>
+        </div>
+        <div class="space-y-4 text-left">
+            <div class="bg-darkCard border border-darkBorder rounded-2xl p-5">
+                <h4 class="text-sm font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-circle-question text-neonLime"></i>
+                    আমার কি কোডিং জানতে হবে?
+                </h4>
+                <p class="text-xs text-gray-400 mt-2">একদমই না! সম্পূর্ণ ওয়েবসাইট আমরা কোড করে বানিয়ে দিব। আপনি শুধু ফেসবুকে পোস্ট করার মতো সহজ অ্যাডমিন প্যানেল দিয়ে ফোন থেকেই সাইট চালাবেন।</p>
+            </div>
+
+            <div class="bg-darkCard border border-darkBorder rounded-2xl p-5">
+                <h4 class="text-sm font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-circle-question text-neonLime"></i>
+                    অর্ডার করার কতদিনের মধ্যে সাইট পাব?
+                </h4>
+                <p class="text-xs text-gray-400 mt-2">সাধারণত ২৪ থেকে ৪৮ ঘণ্টার মধ্যে সাইটের কাজ সম্পন্ন করে লাইভ বুঝিয়ে দেওয়া হয়।</p>
+            </div>
+
+            <div class="bg-darkCard border border-darkBorder rounded-2xl p-5">
+                <h4 class="text-sm font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-circle-question text-neonLime"></i>
+                    সত্যিই কি শুরু ১,০০০ টাকা থেকেই?
+                </h4>
+                <p class="text-xs text-gray-400 mt-2">হ্যাঁ! আমাদের বেসিক রেডিমেড আর্নিং স্ক্রিপ্ট ও সাইট সেটআপ মাত্র ১,০০০ টাকা থেকেই শুরু। আপনার কোনো বিশেষ কাস্টম ফিচার দরকার হলে আলোচনার মাধ্যমে নির্ধারণ করা হয়।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Footer -->
+    <footer class="bg-black border-t border-darkBorder pt-16 pb-12 px-5 text-center">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white">দেরি না করে আজই নিজের প্ল্যাটফর্ম শুরু করুন</h2>
+            <p class="text-gray-400 text-xs sm:text-sm mt-3">
+                সরাসরি আমার টেলিগ্রামে ইনবক্স করুন। আপনার বাজেট এবং প্ল্যান শেয়ার করলে আমি আপনাকে সাইটের লাইভ ডেমো দেখাব।
+            </p>
+
+            <div class="mt-8">
+                <a href="https://t.me/Itz_chiperx" target="_blank" class="bg-neonLime hover:bg-neonHover text-black font-extrabold px-10 py-4 rounded-full text-base inline-flex items-center gap-3 transition neon-glow">
+                    <i class="fa-brands fa-telegram text-xl"></i>
+                    <span>টেলিগ্রামে মেসেজ দিন: @Itz_chiperx</span>
+                </a>
+            </div>
+            <p class="text-gray-500 text-xs mt-4">নাম: Chiper X • QubeX Development</p>
+        </div>
+
+        <div class="max-w-6xl mx-auto mt-16 pt-8 border-t border-darkBorder/40 text-xs text-gray-600 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <p>© 2026 QubeX. All rights reserved.</p>
+            <p>Designed for High-Converting Income Platforms</p>
+        </div>
+    </footer>
+
+</body>
+</html>
